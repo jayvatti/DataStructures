@@ -8,7 +8,7 @@
  * Tail Recursions and loops take the same time.
  * Tail Recursions, Loops -> O(n) -> Time Complexity
  *
- * Tail Recursions -> O(n) -> Space Complexity
+ * Tail Recursions -> O(n) -> Space Complexity -> Due to the use of Stack Memory 
  * Loops           -> O(1) -> Space Complexity
  *
  * Therefore, Loops are space efficient. Many Compilers try to convert Tail Recursions to loops.
