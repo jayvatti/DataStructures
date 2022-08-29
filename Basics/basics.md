@@ -1,4 +1,4 @@
-#Data Structures
+# Data Structures
 
 **Data Structure** is an arrangment of collection of data items so that they can be used efficently. It’s the arrangement and operation of data.
 
