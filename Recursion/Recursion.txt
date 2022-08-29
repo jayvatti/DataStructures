@@ -1,7 +1,7 @@
 ORDER: 
 
-basicRecursion
-staticVariables
-tailRecursion
-headRecursion
+ 1.basicRecursion
+ 2.staticVariables
+ 3.tailRecursion
+ 4.headRecursion
 
