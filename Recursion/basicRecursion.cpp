@@ -1,3 +1,4 @@
+
 #include <iostream>
 /*
  * Loops only have ascending Phase.
