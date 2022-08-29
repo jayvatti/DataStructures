@@ -3,7 +3,7 @@
 /*
  * Head Recursion -> Recursions whose value is to be used after the recursion is done.
  *
- * Head Recursions mostly do not have anything above the recursive statement.
+ * Head Recursions do not have anything above the recursive statement.
  *
  * You cannot convert it into a loop by looking at Head Recursion. Conversion to a loop is a bit difficult.
  */
