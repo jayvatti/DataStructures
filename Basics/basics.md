@@ -1,4 +1,6 @@
-Data Structure is an arrangment of collection of data items so that they can be used efficently. It’s the arrangement and operation of data.
+#Data Structures
+
+**Data Structure** is an arrangment of collection of data items so that they can be used efficently. It’s the arrangement and operation of data.
 
 Data Structure is in the main memory during the execution of the prgoram. Arranging data during the Execution.
 
