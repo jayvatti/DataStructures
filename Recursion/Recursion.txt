@@ -4,8 +4,9 @@ ORDER:
  2.staticVariables
  
  Types of Recursion: 
- 1.tailRecursion
- 2.headRecursion
- 3.linearRecursion
- 4.treeRecursion
-
+ 1.tailRecursion.       - Tail     Recursion
+ 2.headRecursion        - Head     Recursion
+ 3.linearRecursion      - Linear   Recursion 
+ 4.treeRecursion        - Tree     Recursion
+ 5.indirectRecursion    - Indirect Recursion
+ 6.nestedRecursion      - Nested   Recursion 
