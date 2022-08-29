@@ -7,5 +7,5 @@ ORDER:
  1.tailRecursion
  2.headRecursion
  3.linearRecursion
- 4.TreeRecursion
+ 4.treeRecursion
 
