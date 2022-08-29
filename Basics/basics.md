@@ -21,9 +21,8 @@ Stacks, Queues, Trees, Graphs, and Hash Tables.
 Stack → LIFO. 
 
 Queue → FIFO
-
 Stacks and Queues are linear. Trees, Graphs are non-linear. Hast Table is tabular.
-------
+
 
 ## Abstract Data Types
 Abstract Data Type → Hidding details. When you +, - , / , * , you do not know what is happening behind the scences.
