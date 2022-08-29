@@ -21,6 +21,7 @@ Stacks, Queues, Trees, Graphs, and Hash Tables.
 Stack → LIFO. 
 
 Queue → FIFO
+
 Stacks and Queues are linear. Trees, Graphs are non-linear. Hast Table is tabular.
 
 
