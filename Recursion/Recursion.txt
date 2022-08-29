@@ -2,6 +2,10 @@ ORDER:
 
  1.basicRecursion
  2.staticVariables
- 3.tailRecursion
- 4.headRecursion
+ 
+ Types of Recursion: 
+ 1.tailRecursion
+ 2.headRecursion
+ 3.linearRecursion
+ 4.TreeRecursion
 
