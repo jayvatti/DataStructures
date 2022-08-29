@@ -1,6 +1,6 @@
 //
 // Created by Jay Vatti on 8/29/22.
-
+#include <iostream>
 int func1(int n){ // RECURSION WITHOUT STATIC VARIABLES
     if(n>0){
         return func1(n-1) + n;
@@ -17,8 +17,8 @@ int func(int n){ // RECURSION WITH STATIC VARIABLE
     return 0;
 }
 int main() {
-    func1(4);
+    std::cout<<func1(4)<<std::endl;
 
-    func(4);// Since func has a static variable, it acts as a global variable.
+    std::cout<<func(4)<<std::endl;// Since func has a static variable, it acts as a global variable.
     // You can use a global variable too (Outside func, int x = 0;)
 }
