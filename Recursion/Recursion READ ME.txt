@@ -1,4 +1,4 @@
-ORDER: 
+ORDER TO FOLLOW: 
 
  1.basicRecursion
  2.staticVariables
