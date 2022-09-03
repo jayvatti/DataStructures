@@ -5,6 +5,8 @@
 
 /*TAYLOR SERIES
  *
+ * e^x = 1 + x/1 + x^2/2! + x^3/3! ... n terms
+ *
  * */
 float taylor(int x,int n){ //EFFICIENT compared to taylor2(x,n)
     static float power = 1,factorial = 1; //power,factorial = 1 doesn't work
