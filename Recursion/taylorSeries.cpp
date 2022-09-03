@@ -6,7 +6,7 @@
 /*TAYLOR SERIES
  *
  * */
-float taylor(int x,int n){ //EFFICIENT
+float taylor(int x,int n){ //EFFICIENT compared to taylor2(x,n)
     static float power = 1,factorial = 1; //power,factorial = 1 doesn't work
     float value;
     if(n == 0){
