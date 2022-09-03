@@ -10,3 +10,7 @@ ORDER:
  4.treeRecursion        - Tree     Recursion
  5.indirectRecursion    - Indirect Recursion
  6.nestedRecursion      - Nested   Recursion 
+ 
+ PROBLEMS:
+1. naturalNumbers
+2. factorial
