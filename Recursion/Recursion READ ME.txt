@@ -14,3 +14,4 @@ ORDER TO FOLLOW:
  PROBLEMS:
 1. naturalNumbers
 2. factorial
+3. exponent
