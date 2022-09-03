@@ -36,10 +36,10 @@ int main() {
  *                                           taylor(x,1) = taylor(x,0) + x
  *                                                         taylor(x,0) = 1
  * Static Variables : Power, Factorial (Default Value 1)
- * Value = taylor(x,1 - 1)     = 1 (for taylor(x,1)), because n == 0
- * Power = Power * x           = x (for taylor(x,1))  //STATIC
- * Factorial = Factorial * n   = 1 (for taylor(x,1))  //STATIC
- * Value = Value + Power/Factorial
+ * Value = taylor(x,1 - 1)         = 1 (for taylor(x,1)), because n == 0
+ * Power = Power * x               = x (for taylor(x,1))  //STATIC
+ * Factorial = Factorial * n       = 1 (for taylor(x,1))  //STATIC
+ * Value = Value + Power/Factorial = 1 + x/1
  *
  * taylor(x,2)
  * Value = taylor(x,1)         = 1 + x
