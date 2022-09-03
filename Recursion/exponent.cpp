@@ -8,7 +8,7 @@
  * If n == 0; return 1
  *
  *ALTERNATE METHOD
- * 2^8 = (2^2)^4 - Computing time is halved
+ * 2^8 = (2^2)^4 - less recursions
  * 2^9 = 2 * (2^2)^4
  * */
 int exponent(int m,int n){
