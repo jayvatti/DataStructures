@@ -25,6 +25,8 @@ float hornerLoop(int x,int n){ //EFFICIENT compared to DEFAULT TAYLOR SERIES
     return value;
 }
 
+float taylorLoop(int x,int n);
+
 float hornerRecursion(int x, int n){
     static float hornerSum = 1;
     if(n==0){
@@ -37,6 +39,7 @@ float hornerRecursion(int x, int n){
 }
 int main() {
     std::cout<< hornerRecursion(1,10)<<std::endl;
+    std::cout<< taylorLoop(1,10);
 }
 
 //FLOWCHART
@@ -54,6 +57,17 @@ int main() {
  * .. so on
  *
  */
+float taylorLoop(int x, int n){
+    float value = 1;
+    float numerator = 1;
+    float denominator = 1;
+    for (int i = 1; i <= n;i++){
+        numerator = numerator * x;
+        denominator = denominator * i;
+        value = value + numerator/denominator;
+    }
+    return value;
+}
 
 
 
