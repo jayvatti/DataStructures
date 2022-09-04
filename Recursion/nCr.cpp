@@ -3,7 +3,6 @@
 #include <iostream>
 /*
  * nCr = n!/r!(n-r)!
- *
  * Recursion USING PASCAL'S TRIANGLE
  */
 
