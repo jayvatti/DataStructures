@@ -17,3 +17,6 @@ ORDER TO FOLLOW:
 3. exponent
 4. taylorSeries
 5. taylorHorner
+6. fibonacci
+7. nCr
+8. hanoi
