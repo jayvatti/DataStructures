@@ -42,7 +42,7 @@ int main() {
     std::cout<< taylorLoop(1,10);
 }
 
-//FLOWCHART
+//FLOWCHART for hornerRecursion
 /*
  * hornerRecursion(x,4)
  *
@@ -57,6 +57,8 @@ int main() {
  * .. so on
  *
  */
+
+
 float taylorLoop(int x, int n){
     float value = 1;
     float numerator = 1;
@@ -68,6 +70,21 @@ float taylorLoop(int x, int n){
     }
     return value;
 }
+
+/*
+ * FLOWCHART FOR taylorLoop
+ * taylorLoop(x,4)
+ *
+ * for i = 1;
+ * numerator = 1 * x = x     //value stored out of loop
+ * denominator = 1 * i = 1   //value stored out of loop
+ * value = 1 + x/1;          //value stored out of loop
+ *
+ * for i = 2;
+ * numerator = x * x         // since numerator = x
+ * denominator = 1 * 2       // since i = 2
+ * value = 1 + x/1 + x*x/2   // since value = 1 + x/1
+ */
 
 
 
