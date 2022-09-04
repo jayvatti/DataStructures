@@ -16,3 +16,4 @@ ORDER TO FOLLOW:
 2. factorial
 3. exponent
 4. taylorSeries
+5. taylorHorner
