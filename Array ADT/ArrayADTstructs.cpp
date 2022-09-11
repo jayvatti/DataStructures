@@ -4,6 +4,7 @@
 #include <iostream>
 #include <vector>
 
+
 struct Array
 {
     int* A;
