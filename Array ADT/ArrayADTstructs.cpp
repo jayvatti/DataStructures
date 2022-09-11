@@ -4,12 +4,17 @@
 #include <iostream>
 #include <vector>
 
-
 struct Array
 {
     int* A;
-    int size;
-    int length;
+    int size;  //max size
+    int length;//used size
+    //remember that size > length
+
+    /*  Q)if length > size:
+     *  Ans) C and C++ compilers will not check the boundaries of array. They only check the segment(block of memory given to a program)
+        If your program access location outside segment then it will give an error. Programmer should check the boundary of array.
+     */
 };
 void showArray(struct Array arr) {
     std::cout << "The elements are:" << std::endl;
