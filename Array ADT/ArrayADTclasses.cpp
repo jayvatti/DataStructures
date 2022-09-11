@@ -4,7 +4,7 @@
 #include <iostream>
 #include <vector>
 
-class Array{
+class Array{ //autocalls the destructor 
 private:
     int* A;
     int size;  //max size
