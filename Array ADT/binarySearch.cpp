@@ -20,6 +20,12 @@ struct Array
  * repeat until low <=high;
  */
 
+//TIME COMPLEXITY:
+/*
+ * BEST CASE -> O(n)
+ * WORST CASE -> O(log (base 2) n) //including if the element isn't found
+ */
+
 int binarySearchIteration(struct Array arr, int value){
     int low = 0;
     int high = arr.length-1;
