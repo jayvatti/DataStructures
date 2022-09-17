@@ -12,7 +12,7 @@ struct Array
     //remember that size > length
 };
 
-//for binary Search, Array should be sorted.
+//for binary Search, Array should be sorted. (to find an element in a sorted Array)
 /*
  * calculate the mid based on low and high.
  * if the value is less than mid -> high = mid -1
