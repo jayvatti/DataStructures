@@ -20,17 +20,17 @@
  */
 struct Matrix{
     int n;
-    int diagonolMatrix[5];
+    int diagonalMatrix[5];
 };
 void set(struct Matrix *dMatrix,int i, int j, int value){
     //i and j -> rows and columns of "diagonalMatrix"
     if(i==j){
-        dMatrix->diagonolMatrix[i-1] = value;
+        dMatrix->diagonalMatrix[i-1] = value;
     }
 }
 int get(struct Matrix *dMatrix,int i, int j){
     if(i==j){
-        return dMatrix->diagonolMatrix[i-1];
+        return dMatrix->diagonalMatrix[i-1];
     }
     else{
         return 0;
@@ -41,7 +41,7 @@ void display(struct Matrix dMatrix){
 
         for(int j = 1; j <= dMatrix.n; j++){
                 if(i==j){
-                    std::cout<<dMatrix.diagonolMatrix[i-1]<<" ";
+                    std::cout<<dMatrix.diagonalMatrix[i-1]<<" ";
                 }
                 else{
                     std::cout<<"0 ";
